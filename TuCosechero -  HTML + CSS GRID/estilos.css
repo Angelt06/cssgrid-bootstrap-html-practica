@@ -1,0 +1,296 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.8rem;
+    background-color: rgb(241, 234, 234);
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+}
+span {
+    color: rgb(255, 255, 255);
+    background-color: rgb(192, 114, 40);
+    padding: 0.3rem;
+    border-radius: 12%;
+    font-weight: bold;
+}
+
+span:hover {
+    cursor: pointer;
+}
+
+.centrar-texto {
+    text-align: center;
+    font-weight: 400;
+}
+
+.contenedor {
+    max-width: 98%;
+    margin: 2rem 2rem;
+}
+
+.barra {
+    background-color: rgb(17, 83, 83);
+    height: 10.7rem;
+    width: 100%;
+    margin: 0;
+}
+
+.titulo {
+    font-size: 3.5rem;
+    color: white;
+    opacity: 0.8;
+    max-width: 38rem;
+}
+
+.titulo h1 {
+    font-family: 'Square Peg', cursive;
+    margin: 2.2rem 0 0 0;
+}
+
+.ubicar {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.tamaño {
+    width: 4rem;
+    height: 4rem;
+    margin: 4.6rem 0 0 0.6rem
+}
+
+.contenido-header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 130rem;
+}
+
+.navegacion {
+    display: inline-block;
+    margin: 5rem 0 0 0;
+    text-align: end;
+
+}
+
+.navegacion a {
+    color: rgb(230, 222, 222);
+    font-weight: 400;
+    font-size: 2.5rem;
+    margin: 1rem 3rem;
+}
+
+.navegacion a:hover {
+    color: rgb(29, 138, 43);
+    transition-duration: 0.4s;
+
+
+}
+
+.contenido-principal {
+    display: flex;
+    justify-content: space-between;
+    max-width: 80%;
+    margin: 3rem 0 0 12rem;
+}
+
+.productos {
+    border-radius: 10%;
+    margin: 2rem 3rem 2rem 4rem;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.productos h2 {
+    color: rgb(3, 58, 3);
+    margin-bottom: 0.2rem;
+}
+
+.productos h3 {
+    background-color: rgb(226, 97, 10);
+}
+
+.icono {
+    width: 12rem;
+    height: 12rem;
+}
+
+#fruta {
+    margin-left: 2.5rem;
+}
+
+#verdura {
+    margin-right: 2rem;
+}
+
+.productos-principales {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0rem 9rem 2rem 0rem;
+}
+
+.productos-principales img {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: 0;
+}
+
+.productos-principales p {
+    font-size: 1.4rem;
+    margin: 0.5rem;
+}
+
+
+.contenedor-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mod {
+    margin: 0;
+    color: white;
+    margin: 5.5rem 1rem 0 0;
+}
+
+.iconos-footer img {
+    height: 2rem;
+    width: 2rem;
+    margin: 0.5rem 0.5rem 0 0.5rem;
+}
+
+/*Contacto */
+.contenedor-contacto {
+    max-width: 100%;
+    display: grid;
+    justify-content: center;
+}
+
+.contacto p {
+    font-size: 1.4rem;
+    color: #464242;
+    margin: 2rem 0 0 0;
+}
+
+legend {
+    font-size: 2rem;
+    color: #464242;
+}
+
+label {
+    display: block;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+input:not([type="submit"]),
+textarea,
+select {
+    padding: 1rem;
+    display: block;
+    width: 100%;
+    background-color: #e1e1e1;
+    margin-bottom: 2rem;
+    border: none;
+    border-radius: 1rem;
+}
+
+input[type="radio"] {
+    width: auto;
+    margin: 0;
+}
+
+select {
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+textarea {
+    height: 20rem;
+}
+
+.forma-contacto {
+    max-width: 30rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.boton {
+    background: #aeb3a5;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin: 0.5rem 0 2rem;
+    border: none;
+}
+
+.boton:hover {
+    cursor: pointer;
+}
+
+.product {
+    color: rgb(90, 44, 216);
+}
+
+.contenedor-footer p {
+    margin: 4rem 15rem 0.5rem 0;
+}
+
+.fondo-productos {
+    width: 98%;
+    height: 40rem;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+.fruver {
+    max-width: 90%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2rem 9rem 2rem 7rem;
+    padding: 0;
+}
+.fruver img{
+    margin: 2rem 5rem;
+}
+.frutas{
+    border:solid;
+    text-align: center;
+    padding: 0 2.5rem 2rem 2rem;
+    background-color: rgb(218, 228, 220);
+    margin: 0;
+}
+.frutas img{
+    margin: 0 4rem;
+}
+.frutas p{
+    margin: 1rem ;
+}
+#verduras{
+    background-color: #da611c;
+}
+#frutas{
+    background-color: #da611c;
+}
+.contenedor-nosotros {
+    margin: 5rem 20rem 8.4rem 35rem;
+   text-align: center;
+   max-width: 60rem;
+   display:inline-block;
+   justify-content: flex-end;
+}

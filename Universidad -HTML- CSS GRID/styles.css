@@ -1,0 +1,228 @@
+html {
+    font-size: 62.5%;
+    font-size: 1.6rem;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+span{
+    font-style: oblique;
+    color: rgb(206, 142, 58);
+}
+
+header h1, footer h1 {
+    color: rgb(229, 236, 228);
+}
+
+a {
+    text-decoration: none;
+}
+.centrar-texto {
+    text-align: center;
+}
+.navegacion {
+    display: inline-block;
+    margin: 2rem 0 0 0;
+    text-align: end;
+
+}
+.navegacion a{
+    color: rgb(223, 221, 219);
+    margin: 1rem;
+}
+.contenido-header {
+    display: flex;
+    justify-content: space-around;
+    max-width: 130rem;
+}
+.contenedor {
+    max-width: 96%;
+    margin: .5em .5em 2em;
+}
+
+.barra {
+    background: linear-gradient(rgb(35, 133, 35), 40%, rgb(66, 110, 7));
+    height: 5em;
+    width: 100%;
+    margin: 0;
+    padding-right: 10em;
+}
+.barra img{
+    height: 3em;
+    width: 3em;
+}
+.contenido-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cursos {
+    display: grid;
+    padding: .5rem;
+    gap: 1em;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(241, 241, 241);
+}
+
+.cursos p, .profesores p, .card p {
+    font-size: .5rem;
+    margin: 0.2em;
+}
+
+
+.profesores {
+    background-color: rgb(245, 244, 244);
+    display: grid;
+    padding: 1.07em;
+    justify-content: center;
+
+}
+
+.contenido-principal {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1.5em;
+}
+
+.ordenar-curso {
+    background-color: white;
+    border-radius: 3%;
+    display: flex;
+    margin: 0;
+    align-items: flex-start;
+    padding: 0.1em;
+}
+.ordenar-curso div {
+    margin-top: 0.15em;
+    height: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: start;
+}
+
+.ordenar-curso img {
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    padding: 0;
+    margin: 0.3em 0.3em 0;
+    background: radial-gradient(rgb(226, 236, 226), rgb(16, 228, 16));
+}
+
+.ordenar-profesor {
+    background: radial-gradient(circle,rgb(235, 223, 199),40%, rgb(255, 255, 255));
+    border-radius: 3%;
+    display: flex;
+    margin: 0.2em;
+    justify-content: space-between;
+    width: 15em;
+}
+
+.ordenar-profesor img {
+    width: 2em;
+    height: 2em;
+}
+
+.ordenar-profesor div {
+    line-height: 1em;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.medalla{ 
+    flex-direction: row !important;
+    justify-content: start !important;
+}
+.medalla img{
+    width: .8rem;
+    height: .8rem;
+}
+
+/*** Cursos ***/ 
+
+.cursos-pag{
+    background-color: rgb(231, 226, 226);
+}
+.seccion-article h4{
+    background:linear-gradient(rgb(238, 241, 236), rgb(173, 104, 150), rgb(228, 230, 228));
+    opacity: 90%;
+}
+.seccion-article{
+    background-image: url(/img/textura.jpg);
+    opacity: 95%;
+    margin-left: 1em;
+}
+
+
+.organizar-articulos {
+    display: grid;
+    padding-left: 2.5em;
+    margin-top: 1em;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.card{
+    box-sizing: content-box;
+    border-bottom: solid .2em rgb(75, 17, 77);
+    text-align:center;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: linear-gradient(rgb(104, 38, 88), 65%, rgb(170, 134, 134), rgb(233, 233, 235));
+    max-width: 9.8em;
+    height: 12em;
+}
+
+.card img{
+    height: 5.5em;
+    width: 9.8em;
+}
+.card h6{
+    background: radial-gradient(rgb(94, 11, 79), rgb(170, 18, 69), rgb(54, 10, 46));
+    color: rgb(182, 176, 176);
+    position: relative;
+    top: -.4em;
+}
+.card div{
+    padding: 0.2em;
+    text-align: start;
+}
+
+/*** Unity HTML ***/
+
+.unity {
+    text-align: left;
+    display: grid;
+    background-color: rgb(240, 243, 243);
+    grid-template-columns: 1fr;
+    max-width: 25rem;
+    justify-content: center;
+    margin-left: 15em;
+}
+.unity div{
+    margin: 1em 0;
+    padding: 1em;
+}
+
+.contacto{
+    display: flex;
+    flex-direction: column;
+}
+.organizar-articulos-curso{
+    display: grid;
+    padding-left: 2.5em;
+    margin-top: 1em;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
